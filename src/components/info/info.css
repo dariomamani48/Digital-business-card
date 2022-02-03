@@ -1,0 +1,57 @@
+.infoCard{
+    width: 350px;
+    
+    
+}
+
+.infoCard-foto{
+    width: 100%;
+    border-radius: 15px 15px 0 0 ;
+}
+.infoCard-tittle{
+    font-size: 1.5rem;
+}
+.infoCard-btns{
+    display: flex;
+    gap: 5%;
+    
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 15px;
+
+}
+.infoCard-btn-lk{
+    background-color: rgb(66, 107, 240);
+    color: white;
+    border-radius: 5px;
+    padding: 9px;
+    width: 50%;
+    text-decoration: none;
+    transition: all .6s ease-in;
+
+}
+.infoCard-btn-lk:hover{
+    background-color: white;
+    color: rgb(66, 107, 240);
+}
+.infoCard-btn-git{
+    background-color: rgb(30, 36, 56);
+    color: white;
+    border-radius: 5px;
+    padding: 9px;
+    width: 50%;
+    text-decoration: none;
+    transition: all .6s ease-in;
+}
+.infoCard-btn-git:hover{
+    color: rgb(30, 36, 56);
+    background-color: rgb(255, 255, 255);
+
+}
+.infoCard-subt{
+    color: goldenrod;
+}
+.infoCard-local{
+    font-size: .7em;
+    margin: 15px;
+}
